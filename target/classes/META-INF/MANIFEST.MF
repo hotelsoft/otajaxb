@@ -1,0 +1,17 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1499938183400
+Build-Jdk: 1.8.0_45
+Built-By: madhu
+Bundle-Blueprint: OSGI-INF/blueprint/blueprint.xml
+Bundle-Description: Empty Camel Blueprint Example
+Bundle-License: http://www.apache.org/licenses/LICENSE-2.0.html
+Bundle-ManifestVersion: 2
+Bundle-Name: Empty Camel Blueprint Example [camel-jaxb]
+Bundle-SymbolicName: camel-jaxb
+Bundle-Version: 1.0.0.SNAPSHOT
+Created-By: Apache Maven Bundle Plugin
+Export-Package: com.hotelsoft;uses:="org.apache.camel";version="1.0.0"
+Import-Package: org.apache.camel;version="[2.18,3)",org.opentravel.ota,o
+ rg.osgi.service.blueprint;version="[1.0.0,2.0.0)",ota-hotel
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.8))"
+Tool: Bnd-3.2.0.201605172007
